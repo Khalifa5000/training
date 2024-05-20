@@ -65,8 +65,8 @@ function App() {
 
 
 
-      <header style={{ backgroundColor: "red" }} className="show-when-mobile">
-        <h1>Courses 4 Arab</h1>
+      <header style={{ backgroundColor: "black" }} className="show-when-mobile">
+        <h1>My Portfolio</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
