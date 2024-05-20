@@ -47,7 +47,7 @@ header {
 
 h1 {
   padding: 20px;
-  font-size: 25px;
+  font-size: 22px;
   transition: .8s;
   -webkit-transition: .8s;
   -moz-transition: .8s;
@@ -57,7 +57,9 @@ h1 {
 h1:hover{
   color: cyan;
   cursor: pointer;
-  font-size: 28px;
+  font-size: 24px;
+  box-shadow: 0 0 5px cyan;
+  border-radius: 5px;
 }
 
 /* ===============
