@@ -61,6 +61,12 @@ h1:hover{
   box-shadow: 0 0 5px cyan;
   border-radius: 5px;
 }
+h2{
+  color: #1b1b1b;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 20%;
+}
 
 /* ===============
    1.  ul class .flex
