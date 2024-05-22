@@ -8,7 +8,7 @@ const Css = () => {
     <>
       <Header/>
       <main>
-      <MainContent pageName="CSS page" designer="Mohamed Khalifa"/>
+      <MainContent pageName="CSS page" designer="Designer"/>
       </main>
       <Footer/>
     </>

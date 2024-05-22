@@ -8,7 +8,7 @@ const Html = () => {
     <>
       <Header/>
       <main>
-      <MainContent pageName="HTML page" designer="Mohamed Khalifa"/>
+      <MainContent pageName="HTML page" designer="Developer"/>
       </main>
       <Footer/>
     </>

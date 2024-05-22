@@ -8,7 +8,7 @@ const Javascript = () => {
     <>
       <Header/>
       <main>
-      <MainContent pageName="JAVASCRIPT page" designer="Mohamed Khalifa"/>
+      <MainContent pageName="JAVASCRIPT page" designer="Programmer"/>
       </main>
       <Footer/>
     </>
