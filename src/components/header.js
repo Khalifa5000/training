@@ -1,15 +1,17 @@
 import React from 'react';
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div>
+    <>
           <header className="hide-when-mobile">
-    <h1>My Portfolio</h1>
+            <Link to="/"><h1>My Portfolio</h1></Link>
+    
     <ul className="flex">
       <li className="main-list">
-        <a className="main-link" href="www">
+        <NavLink className="main-link" to="/html">
           HTML
-        </a>
+        </NavLink>
         <ul className="sub-ul">
           <li>
             <a href="">Full Course</a>
@@ -23,9 +25,9 @@ const Header = () => {
         </ul>
       </li>
       <li className="main-list">
-        <a className="main-link" href="#">
+        <NavLink className="main-link" to="/css">
           CSS
-        </a>
+        </NavLink>
         <ul className="sub-ul">
           <li>
             <a href="">Full Course</a>
@@ -50,9 +52,9 @@ const Header = () => {
         </ul>
       </li>
       <li className="main-list">
-        <a className="main-link" href="#">
+        <NavLink className="main-link" to="/javascript">
           JavaScript
-        </a>
+        </NavLink>
         <ul className="sub-ul sub-of-js">
           <li>
             <a href="">coming soon🔥</a>
@@ -64,7 +66,8 @@ const Header = () => {
 
 
           <header style={{ backgroundColor: "black" }} className="show-when-mobile">
-    <h1>My Portfolio</h1>
+            <Link to="/"><h1>My Portfolio</h1></Link>
+
     <label className="absolute" htmlFor="burger">
       <i className="fas fa-bars" />
     </label>
@@ -72,7 +75,9 @@ const Header = () => {
     <div className="show-on-click">
       <div className="main-div">
         <label htmlFor="html">
-          HTML <i className="fas fa-plus" />
+        <NavLink className="main-link" to="/html">
+          HTML
+        </NavLink><i className="fas fa-plus" />
         </label>
         <input id="html" type="checkbox" />
         <ul className="sub-div">
@@ -89,7 +94,9 @@ const Header = () => {
       </div>
       <div className="main-div">
         <label htmlFor="css">
-          CSS <i className="fas fa-plus" />
+        <NavLink className="main-link" to="/css">
+          CSS
+        </NavLink> <i className="fas fa-plus" />
         </label>
         <input id="css" type="checkbox" />
         <ul className="sub-div">
@@ -120,7 +127,9 @@ const Header = () => {
       </div>
       <div className="main-div">
         <label htmlFor="js">
-          JavaScript <i className="fas fa-plus" />
+        <NavLink className="main-link" to="/javascript">
+          JavaScript
+        </NavLink> <i className="fas fa-plus" />
         </label>
         <input id="js" type="checkbox" />
         <ul className="sub-div">
@@ -132,7 +141,7 @@ const Header = () => {
     </div>
           </header>
   
-    </div>
+    </>
   );
 }
 

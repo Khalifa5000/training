@@ -2,12 +2,14 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div>
-        <footer>
-          Designed and developed by Mohamed Khalifa.com
-          <span>🧡</span>
-        </footer>
-    </div>
+
+<div>
+          <footer>
+            Designed and developed by Mohamed Khalifa
+            <span> 💕</span>
+          </footer>
+</div>
+
   );
 }
 

@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from "../components/header";
 import Footer from "../components/footer";
+import MainContent from "../components/mainContent";
 
 const Css = () => {
   return (
     <>
       <Header/>
       <main>
-           CSS page
+      <MainContent pageName="CSS page" designer="Mohamed Khalifa"/>
       </main>
       <Footer/>
     </>
